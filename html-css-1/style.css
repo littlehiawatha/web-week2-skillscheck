@@ -1,4 +1,27 @@
-body {
+
+/* 
+header {
+   height: 50px;
+   width: 100%;
+   background-color: gray;
+}
+
+container-1 {
+   height: 900px;
+   width: 100%;
+   background-color: red;
+
+}
+
+footer{
+   height: 100px;
+   width: 100%;
+   background-color: darkslateblue; 
+}
+
+ */
+
+/* body {
    margin: 0px;
    padding: 0px;
    border: 0px;
@@ -12,6 +35,7 @@ header {
    display: flex;
    text-align: center;
    align-items: center;
+   align-content: center;
 
 
 }
@@ -19,13 +43,30 @@ header {
 .container1 {
    height: 300px;
    width: 100%;
+   border: 5px solid black;
    background-color: black;
+   
+}
+
+.container2.section-c2.1.box  {
+
+   height: 100px;
+   width: 100px;
+   color: aqua;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+   
+
 }
 
 .container2 {
    height: 600px;
    width: 100%;
-   background-color: whitesmoke;
+   background-color: transparent;
 }
 
 footer {
@@ -33,5 +74,110 @@ footer {
    width: 100%;
    background-color: slateblue;
 }
+ */
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   margin: 0px;
+   padding: 0px;
+   border: 0px;
+}
+
+header {
+   height: 5vh;
+   width: 100%;
+   background-color: grey;
+}
 
 
+
+#container-1{
+   height:20vh ;
+   width: 100%;
+   background-color: black;
+   color: yellow;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   /* font: bold 100px; */
+}
+
+#container-2 {
+   height:65vh ;
+   width: 100%;
+   background-color: whitesmoke;
+
+}
+
+
+#subsection-1 {
+   background-color: red;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+
+   /* display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center; */
+}
+
+#square {
+   height:300px ;
+   width: 300px;
+   background-color: aquamarine;
+   border-radius: 15px;
+
+   
+}
+
+#subsection-2 {
+   background-color: navy;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   align-content: center;
+}
+
+#subsection-3 {
+   background-color: coral;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   align-content: center;
+}
+
+#article {
+   height: 300px;
+   width: 600px;
+}
+
+#caption {
+   height: 300px;
+   background-image: url(https://live.staticflickr.com/4711/38914308994_a7dc785805_b.jpg);
+}
+
+#rectangle {
+   height:300px ;
+   width: 600px;
+   background-color: peru;
+   
+}
+footer {
+   height:10vh ;
+   width: 100%;
+   background-color: slateblue;
+}
