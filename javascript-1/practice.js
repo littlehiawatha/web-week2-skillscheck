@@ -4,9 +4,14 @@
 
 // Code here
 
+let myName = "Jacob Hall"
+
+
 //////////////////PROBLEM 2////////////////////
 
 // Create a variable called 'faveNum' with a value that is your favorite number. 
+
+let faveNum = 13
 
 //Code here
 
@@ -16,11 +21,18 @@
 
 //Code here
 
+let lovesCode = true
+
 //////////////////PROBLEM 4////////////////////
 
 // Create a function called 'sum' that takes in two parameters, 'num1' and 'num2'. The function should return the sum of the two parameters.
 
 //Code here
+
+function sum(num1,num2) {
+	let sum= num1 + num2;
+	return sum
+}
 
 //////////////////PROBLEM 5////////////////////
 
@@ -28,17 +40,36 @@
 
 //Code here
 
+function lovesCodeChecker (x) {
+	if (x === true) {
+		return true 
+	} else {
+		return false
+	}
+}
+
 //////////////////PROBLEM 6////////////////////
 
 // Create a function called 'oddChecker' that takes in one parameter, 'num'. Your function should check to see if the parameter is even or odd. If the parameter is odd, return 'the number is odd'. If the number is even, return 'the number is even'.
 
-//Code here
+////Code here
+
+// function oddChecker(num){
+// 	if (num){
+// 		return 'the number is odd'
+// 	}else {
+// 		return "the number is even"
+// 	}
+// }
 
 //////////////////PROBLEM 7////////////////////
 
 // Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. Have the function take the two parameters and return a string that says "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 
 //Code Here
+function iLove(name,love) {
+	let ilove = `${name} +loves' +${love}`
+} 
 
 //////////////////PROBLEM 8////////////////////
 
@@ -46,12 +77,17 @@
 const faveColors = ['red', 'green', 'black']
 
 //Code Here
+let colorCopy = faveColors.slice(0,faveColors.length ++);
 
 //////////////////PROBLEM 9////////////////////
 
 // Add a fourth color to the end of the 'colorCopy' array using push.
 
+
 //Code Here
+
+colorCopy.push('purple');
+
 
 //////////////////PROBLEM 10////////////////////
 
@@ -59,6 +95,7 @@ const faveColors = ['red', 'green', 'black']
 const numbers = [1, 2, 3, 4, 5]
 
 //Code Here
+let middleNums = numbers.slice(1,numbers.length--);
 
 //////////////////PROBLEM 11////////////////////
 
