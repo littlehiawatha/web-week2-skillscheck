@@ -55,12 +55,16 @@ function lovesCodeChecker (x) {
 ////Code here
 
 // function oddChecker(num){
-// 	if (num){
-// 		return 'the number is odd'
-// 	}else {
-// 		return "the number is even"
-// 	}
-// }
+// 	if (num = odd)
+// };
+
+function oddChecker(num){
+	if (num = 'odd'){
+		return 'the number is odd'
+	}else {
+		return 'the number is even'
+	}
+};
 
 //////////////////PROBLEM 7////////////////////
 
@@ -102,6 +106,15 @@ let middleNums = numbers.slice(1,numbers.length--);
 // Create an object called 'me' that has the following keys: firstName, state, age, and greeter. The value of the firstName key should be your name as a string. The value of the property state should be your current state or providence of residence as a string. The value of age should be your age as a number. greeter should be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the corresponding values. 
 
 //Code Here
+
+let me = {
+	firstName: 'Jacob',
+	state: 'Utah',
+	age: 18,
+	greeter: function() { return `Hello! My name is ${firstname} and I live in ${state}`
+}
+
+};
 
 //////////////////PROBLEM 12////////////////////
 
