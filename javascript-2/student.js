@@ -39,6 +39,8 @@ if(lovesCode === true) {
 } else {
    lovesCode = 'I do not love to code';
 }
+// this may need some fixing or double check step 4 string returns "," not phrase //
+
 
 //////////////////Wrap Up////////////////////
 // Refresh the index.html page in your browser. You should now see a poem that uses the variables from above.
